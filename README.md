@@ -1,36 +1,29 @@
+Example of a spring-boot api that exposes simple operations related of a calculator
 
+Whole lifecycle management is done with MAVEN 
 
+./mvnw spring-boot:clean install 
+./mvnw spring-boot:run
 
-// 20220304123024
-// http://localhost:8080/fungusapp/basic/add
+Includes integration con swagger, prometheus for basic metrics.
 
-{
-  "error": "Required BigDecimal parameter 'augend' is not present"
-}
+// 20220304123024 // http://localhost:8080/fungusapp/basic/add
 
+{ "error": "Required BigDecimal parameter 'augend' is not present" }
 
-// 20220304092024
-// http://localhost:8080/fungusapp/basic/random
+// 20220304092024 // http://localhost:8080/fungusapp/basic/random
 
-{
-  "result": "  -1451758225  1047235257  1071039237  1756091797  378638288  192951891  174279129  1573726543  -887277422  -1757640089"
-}
+{ "result": " -1451758225 1047235257 1071039237 1756091797 378638288 192951891 174279129 1573726543 -887277422 -1757640089" }
 
+/add i. It will take two numbers and add them together.
 
+  ii.    Return the result of adding them.
+/substract i. It will take two real numbers and return the result of subtracting them.
 
-/add 
-      i.    It will take two numbers and add them together.
+/division i. Divide two numbers, return the result.
 
-      ii.    Return the result of adding them.
+/random i. Optional argument Count.
 
-/substract
-       i.    It will take two real numbers and return the result of subtracting them.
-
-/division
-       i.    Divide two numbers, return the result.
-
-/random
-      i.    Optional argument Count.
-
-      ii.    It will return by default 10 random numbers if Count provided, return the amount of random numbers requested.
-
+  ii.    It will return by default 10 random numbers if Count provided, return the amount of random numbers requested.
+Authors
+@acalles
