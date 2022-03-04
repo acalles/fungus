@@ -18,7 +18,7 @@ public class FungusControllerTest extends FungusControllerAbstractTest {
        super.setUp();
     }
 
-@Test
+@TRulest
 public void getRandom() throws Exception {
    String uri = "/basic/random";
    MvcResult mvcResult = mvc.perform(MockMvcRequestBuilders.get(uri)
