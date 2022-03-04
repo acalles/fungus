@@ -1,0 +1,9 @@
+/home/acalles/fungus/fungusapp/src/main/java/com/fungus/fungusapp/CalculatorApplication.java
+/home/acalles/fungus/fungusapp/src/main/java/com/fungus/fungusapp/model/ResultBuilder.java
+/home/acalles/fungus/fungusapp/src/main/java/com/fungus/fungusapp/ops/BasicOps.java
+/home/acalles/fungus/fungusapp/src/main/java/com/fungus/fungusapp/calculatorengine/CalculatorService.java
+/home/acalles/fungus/fungusapp/src/main/java/com/fungus/fungusapp/infra/InfraController.java
+/home/acalles/fungus/fungusapp/src/main/java/com/fungus/fungusapp/cfg/CalculatorExceptionHandler.java
+/home/acalles/fungus/fungusapp/src/main/java/com/fungus/fungusapp/cfg/SwaggerCfg.java
+/home/acalles/fungus/fungusapp/src/main/java/com/fungus/fungusapp/calculatorengine/CalculatorController.java
+/home/acalles/fungus/fungusapp/src/main/java/com/fungus/fungusapp/model/ApiResult.java

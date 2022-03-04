@@ -1,0 +1,7 @@
+com/fungus/fungusapp/model/ApiResult.class
+com/fungus/fungusapp/ops/BasicOps.class
+com/fungus/fungusapp/CalculatorApplication.class
+com/fungus/fungusapp/model/ResultBuilder.class
+com/fungus/fungusapp/cfg/SwaggerCfg.class
+InfraController.class
+com/fungus/fungusapp/cfg/CalculatorExceptionHandler.class
